@@ -39,17 +39,23 @@
 
 const int BUTTON_OFFSET_VALUES[16] = {
    BTN_START,
-   BTN_TR2,
    BTN_TR,
-   BTN_TL,
+   //BTN_TR,
+   //BTN_TL,
+   -1, // old BTN_TR
+   -1, // old BTN_TL
    -1,
    -1,
    -1,
    -1,
-   BTN_SOUTH,
-   BTN_WEST,
-   BTN_EAST,
-   BTN_NORTH,
+   //BTN_SOUTH,
+   //BTN_WEST,
+   //BTN_EAST,
+   //BTN_NORTH,
+   BTN_A, // old BTN_SOUTH
+   BTN_B, // old BTN_WEST
+   BTN_X, // old BTN_EAST
+   BTN_Y, // old BTN_NORTH
    BTN_DPAD_LEFT,
    BTN_DPAD_RIGHT,
    BTN_DPAD_DOWN,
